@@ -1,13 +1,13 @@
 # Introdução a Redes Hierárquicas
 Atividade prática desenvolvida no Cisco Packet Tracer para compreender e implementar uma estrutura de Redes Hierárquicas em três camadas:  Acesso, Distribuição e Núcleo (Core).
 
-##1. Laboratório de Redes Hierárquicas 
+## 1. Laboratório de Redes Hierárquicas 
 O projeto a seguir tem por abjetivo compreender o processo de implementação de uma rede Hierárquica Corporativa dividida em trÊs camadas, sendo estas a :
 -Camada de Acesso
 -Camada de Distribuição
 -Camada de Núcleo (Core)
 
-##2. Obejetivos
+## 2. Obejetivos
 -Compreender o modelo Hierárquico
 -Entender as funções de cada camada da rede
 -Montar a topologia no Cisco Packet Tracer;
@@ -17,7 +17,7 @@ O projeto a seguir tem por abjetivo compreender o processo de implementação de
 -Testar conectividade utilizando ping;
 -Observar o tráfego ICMP no modo Simulation.
 
-##3. Dispositivos e Materiais Utilizados
+## 3. Dispositivos e Materiais Utilizados
 Camada	              Equipamento	    Modelo        Quantidade
 Núcleo	              Roteador        4331         	    1
 Distribuição	        Switch          3650-24PS	        1
@@ -25,10 +25,10 @@ Acesso	              Switch          2960-24TT	        2
 Dispositivos finais	  PCs	                -             4
 Cabeamento            Cabos Diretos (Straight-Through)                
 
-##4. Arquitetura
+## 4. Arquitetura
 <img width="1916" height="1010" alt="topologia" src="https://github.com/user-attachments/assets/f31a2530-b66e-446e-ac71-085da1864ac8" />
 
-##5. Endereçamentos
+## 5. Endereçamentos
 | Dispositivo | Interface            | Endereço IP  | Máscara       | Gateway     |
 | ----------- | -------------------- | ------------ | ------------- | ----------- |
 | Router-Core | GigabitEthernet0/0/0 | 192.168.1.1  | 255.255.255.0 | —           |
@@ -37,10 +37,10 @@ Cabeamento            Cabos Diretos (Straight-Through)
 | PC-Sec01     | FastEthernet0       | 192.168.1.20 | 255.255.255.0 | 192.168.1.1 |
 | PC-Sec02     | FastEthernet0       | 192.168.1.21 | 255.255.255.0 | 192.168.1.1 |
 
-##6. Configuração do Roteador
+## 6. Configuração do Roteador
 documentacao/comandos-roteador.txt
 
-##7. Testes e Simulação
+## 7. Testes e Simulação
 Foram realizados 4 teste e simulação:
 ### PC-Lab01 ping no Roteador
 `ping 192.168.1.1`
