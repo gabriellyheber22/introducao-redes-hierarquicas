@@ -1,0 +1,17 @@
+Router> enable
+// Acessando o modo privilegiado
+
+Router# configure terminal
+// Iniciando a configuração do roteador
+
+Router(config)# interface gigabitEthernet 0/0/0
+// Selecionando a interface da porta utilizada na conexão
+
+Router(config-if)# ip address 192.168.1.1 255.255.255.0
+// Configurando o endereço IP e a máscara de rede
+
+Router(config-if)# no shutdown
+// Ativando a interface
+
+Router(config-if)# exit
+// Finalizando a configuração da interface
