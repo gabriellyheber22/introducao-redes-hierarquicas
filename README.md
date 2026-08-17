@@ -18,12 +18,13 @@ O projeto a seguir tem por abjetivo compreender o processo de implementação de
 -Observar o tráfego ICMP no modo Simulation.
 
 ## 3. Dispositivos e Materiais Utilizados
-Camada	              Equipamento	    Modelo        Quantidade
-Núcleo	              Roteador        4331         	    1
-Distribuição	        Switch          3650-24PS	        1
-Acesso	              Switch          2960-24TT	        2
-Dispositivos finais	  PCs	                -             4
-Cabeamento            Cabos Diretos (Straight-Through)                
+| Camada	             |Equipamento	   |Modelo       |Quantidade |
+| -------------------- | ------------- |-------------| ----------|
+| Núcleo	             |Roteador       |4331         | 	    1    |
+| Distribuição	       |Switch         |3650-24PS	   |      1    |
+| Acesso	             |Switch         |2960-24TT	   |      2    |
+| Dispositivos finais	 |PCs	           |     -       |      4    |
+| Cabeamento           |Cabos Diretos  |     -       |      -    |
 
 ## 4. Arquitetura
 <img width="1916" height="1010" alt="topologia" src="https://github.com/user-attachments/assets/f31a2530-b66e-446e-ac71-085da1864ac8" />
